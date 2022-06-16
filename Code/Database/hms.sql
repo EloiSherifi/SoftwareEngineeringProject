@@ -376,6 +376,8 @@ ALTER TABLE `doctors`
 ALTER TABLE `doctorslog`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=20;
 
+ALTER TABLE `stafflog`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=20;
 --
 -- AUTO_INCREMENT for table `doctorspecilization`
 --
