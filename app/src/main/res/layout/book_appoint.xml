@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:layout_margin="30dp"
+    android:orientation="vertical"
+    tools:ignore="ExtraText">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="60dp"
+        android:textSize="20sp"
+        android:text="Book your appointment"
+        android:gravity="center"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:id="@+id/email_address"
+        android:layout_width="296dp"
+        android:layout_height="58dp"
+        android:gravity="center"
+        android:hint="Email Address"
+        android:inputType="textEmailAddress"
+        android:minHeight="48dp"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="296dp"
+        android:layout_height="58dp"
+        android:gravity="center"
+        android:hint="Full Name"
+        android:inputType="textEmailAddress"
+        android:minHeight="48dp"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp" />
+
+    <LinearLayout
+        android:layout_width="327dp"
+        android:layout_height="64dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:minHeight="48dp"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp">
+
+        <TextView
+            android:layout_width="47dp"
+            android:layout_height="39dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="+355"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/phone_input"
+            android:layout_width="233dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:gravity="center"
+            android:hint="Phone"
+            android:inputType="number" />
+
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/appointment_details"
+        android:layout_width="296dp"
+        android:layout_height="58dp"
+        android:gravity="center"
+        android:hint="Appointment Details"
+        android:minHeight="48dp"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp" />
+
+    <EditText
+        android:id="@+id/date"
+        android:layout_width="296dp"
+        android:layout_height="58dp"
+        android:gravity="center"
+        android:hint="Date"
+        android:inputType="date"
+        android:minHeight="48dp"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/submit"
+        android:layout_width="296dp"
+        android:layout_height="58dp"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="#87d4f5"
+        android:text="Book Appointment"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:inputType="date"
+        android:minHeight="48dp"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp" />
+
+
+
+</LinearLayout>
